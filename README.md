@@ -7,7 +7,7 @@ Una landing page moderna y responsiva para una tienda ecológica, desarrollada c
 
 ## 🚀 Demo en Vivo
 
-🔗 **[Ver Demo](https://carla87571.github.io/CursoSass/ecoStorePlatzi/)**
+🔗 **[Ver Demo](https://carla87571.github.io/CursoSass/)**
 
 ## 📋 Descripción del Proyecto
 
