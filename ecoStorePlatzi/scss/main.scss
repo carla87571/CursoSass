@@ -215,24 +215,29 @@ section {
     }
 }
 .location{
+    padding: 60px;
+    text-align: center;
     color: #E86424;
     h2{
-        
+        color: $primary-text-color;
+        font-size: 2em;
+        font-weight: 300;
         padding-bottom: 60px;
-        padding-top: 60px;
-    }
-    h3{
-        font-size: 1em;
-        padding-bottom: 60px;
-        padding-top: 60px
+        margin: 0;
     }
     .map{
         @include flex-center(row, center, center);
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+        img{
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+        }
     }
-    h3,p{
+    p{
         font-size: $paragraph-size;
-        
+        margin: 10px 0;
+        line-height: 1.4;
     }
 }
 footer {
@@ -245,6 +250,19 @@ footer {
         @include flex-center(row, center, center);
         gap: 40px;
         padding-bottom: 20px;
+        a {
+        display: inline-block;
+        transition: transform 0.3s ease;
         
+        &:hover {
+            transform: scale(1.1);
+        }
+        
+        img {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+    }
     }
 }

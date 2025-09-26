@@ -204,26 +204,33 @@ section .furniture .product-card {
 }
 
 .location {
+  padding: 60px;
+  text-align: center;
   color: #E86424;
 }
 .location h2 {
+  color: #7C6A0A;
+  font-size: 2em;
+  font-weight: 300;
   padding-bottom: 60px;
-  padding-top: 60px;
-}
-.location h3 {
-  font-size: 1em;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  margin: 0;
 }
 .location .map {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
-.location h3, .location p {
+.location .map img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+.location p {
   font-size: 1.5em;
+  margin: 10px 0;
+  line-height: 1.4;
 }
 
 footer {
@@ -240,4 +247,16 @@ footer .social-media {
   align-items: center;
   gap: 40px;
   padding-bottom: 20px;
+}
+footer .social-media a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+footer .social-media a:hover {
+  transform: scale(1.1);
+}
+footer .social-media a img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
