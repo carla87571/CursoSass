@@ -1,7 +1,7 @@
 # CursoSass
 Curso de Fundamentos de Sass: Crea tu Landing Page
 
-# 🌱 EcoStore Platzi
+# 🌱 EcoStore EcoTerra
 
 Una landing page moderna y responsiva para una tienda ecológica, desarrollada con HTML5, CSS3 y **Sass/SCSS** como parte del curso de Sass en Platzi.
 
@@ -11,7 +11,7 @@ Una landing page moderna y responsiva para una tienda ecológica, desarrollada c
 
 ## 📋 Descripción del Proyecto
 
-EcoStore es una landing page para una tienda online especializada en productos ecológicos y sostenibles. El proyecto demuestra el uso avanzado de **Sass/SCSS** con características modernas como variables, mixins, herencia y anidación.
+EcoStore EcoTerra es una landing page para una tienda online especializada en productos ecológicos y sostenibles. El proyecto demuestra el uso avanzado de **Sass/SCSS** con características modernas como variables, mixins, herencia y anidación.
 
 ### 🎯 Características Principales
 

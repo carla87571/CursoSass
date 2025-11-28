@@ -266,3 +266,265 @@ footer {
     }
     }
 }
+
+// ============================================
+// 📱 RESPONSIVE DESIGN - MEDIA QUERIES
+// ============================================
+
+// Tablets y pantallas medianas (max-width: 768px)
+@media (max-width: 768px) {
+    // Navegación
+    nav {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+        
+        p {
+            font-size: 1.2em;
+            padding-left: 0;
+        }
+        
+        .icons {
+            justify-content: center;
+        }
+    }
+
+    // Hero Section
+    article {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        .impact-section {
+            width: 90%;
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            button {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+        
+        .image-section img {
+            width: 80%;
+            max-width: 300px;
+            margin-top: 20px;
+        }
+    }
+
+    // Secciones de productos
+    section {
+        padding: 40px 20px;
+        
+        h2 {
+            font-size: 1.5em;
+            padding-bottom: 30px;
+        }
+        
+        .healthcare {
+            padding-bottom: 40px;
+            
+            .card-section {
+                flex-direction: column;
+                align-items: center;
+                row-gap: 40px;
+                column-gap: 0;
+                
+                .product-card {
+                    width: 90%;
+                    max-width: 350px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    // About Us
+    .about-us {
+        padding: 40px 20px;
+        
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        
+        .mission-section {
+            flex-direction: column;
+            gap: 30px;
+            
+            .earth, .innovation {
+                width: 90%;
+                max-width: 400px;
+                flex-direction: column;
+                text-align: center;
+                
+                img {
+                    width: 60px;
+                    height: 60px;
+                    margin-bottom: 15px;
+                }
+                
+                div p {
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+
+    // Galería
+    .gallery {
+        padding: 40px 20px;
+        
+        h2 {
+            font-size: 1.5em;
+        }
+        
+        .gallery-images {
+            flex-direction: column;
+            gap: 20px;
+            
+            img {
+                width: 90%;
+                max-width: 400px;
+                height: 300px;
+            }
+        }
+    }
+
+    // Ubicación
+    .location {
+        padding: 40px 20px;
+        
+        h2 {
+            font-size: 1.5em;
+        }
+        
+        .map img {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    // Footer
+    footer {
+        padding: 30px 20px;
+        text-align: center;
+        
+        h3 {
+            font-size: 1.5em;
+        }
+        
+        .social-media {
+            justify-content: center;
+        }
+    }
+}
+
+// Móviles pequeños (max-width: 480px)
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    nav {
+        p {
+            font-size: 1em;
+        }
+        
+        .icons {
+            gap: 10px;
+            
+            button img, button svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    article {
+        .impact-section {
+            width: 95%;
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            p {
+                font-size: 1em;
+            }
+            
+            button {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+        }
+    }
+    
+    section {
+        h2 {
+            font-size: 1.2em;
+        }
+        
+        .healthcare {
+            .card-section {
+                .product-card {
+                    width: 95%;
+                    
+                    h3 {
+                        font-size: 1em;
+                    }
+                    
+                    p {
+                        font-size: 0.9em;
+                    }
+                }
+            }
+        }
+    }
+    
+    .about-us {
+        .mission-section {
+            .earth, .innovation {
+                width: 95%;
+                
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+                
+                div p {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    
+    .gallery {
+        .gallery-images {
+            img {
+                width: 95%;
+                height: 250px;
+            }
+        }
+    }
+    
+    footer {
+        h3 {
+            font-size: 1.2em;
+        }
+        
+        p {
+            font-size: 0.9em;
+        }
+        
+        .social-media {
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
